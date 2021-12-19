@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -16,6 +17,13 @@ export default function Home() {
             <a>this page!</a>
           </Link>
         </h1>
+
+        <Image 
+          src="/images/profile.jpg"
+          height={400}
+          width={400}
+          alt="Rhys Malyon"
+        />
       </main>
 
       <footer>
