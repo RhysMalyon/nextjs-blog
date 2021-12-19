@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
+import Layout from '../../components/layout'
+
 const FirstPost = () => {
   return(
-    <>
+    <Layout>
       <Head>
         <title>First Post</title>
         <link rel="icon" href="/favicon.ico" />
@@ -14,7 +16,7 @@ const FirstPost = () => {
           <a>Back to home</a>
         </Link>
       </h2>
-    </>
+    </Layout>
   )
 }
 
